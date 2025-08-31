@@ -45,7 +45,8 @@ const socialMediaLinks = [
   },
   {
     name: "TikTok",
-    link: "https://www.tiktok.com/@_dasola___",
+    link:
+      "https://www.tiktok.com/@_dasola__?_r=1&_d=ebg0mh32230e8f&sec_uid=MS4wLjABAAAA6ssNIuZOIwUrEgLN8yktbKn6b80w8w4-H4OF99rT95wKDFcsNL0YZovJhPdVyncc&share_author_id=6817131656308229125&sharer_language=en&source=h5_m&u_code=dc1hef1m5jh5jh&ug_btm=b8727,b0&sec_user_id=MS4wLjABAAAA6ssNIuZOIwUrEgLN8yktbKn6b80w8w4-H4OF99rT95wKDFcsNL0YZovJhPdVyncc&utm_source=copy&social_share_type=5&utm_campaign=client_share&utm_medium=ios&tt_from=copy&user_id=6817131656308229125&enable_checksum=1&share_link_id=055BA994-EE58-4370-B760-D1D50FC9C4EB&share_app_id=1233&ug_btm=b8727,b0&sec_user_id=MS4wLjABAAAA6ssNIuZOIwUrEgLN8yktbKn6b80w8w4-H4OF99rT95wKDFcsNL0YZovJhPdVyncc&utm_source=more&social_share_type=5&utm_campaign=client_share&utm_medium=ios&tt_from=more&user_id=6817131656308229125&enable_checksum=1&share_link_id=9A5D6D28-22B7-4E69-91BF-0E33D6729549&share_app_id=1233",
     imageSrc: "tiktok_logo.png", // Using custom TikTok logo image
     backgroundColor: "#000000", // TikTok brand color
   },
