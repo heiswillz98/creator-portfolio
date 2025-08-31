@@ -32,7 +32,7 @@ export default function Greeting(props) {
                 <Button
                   text="🎨 Check My Canva"
                   newTab={true}
-                  href="https://www.canva.com/design/your-canva-profile"
+                  href={greeting.portfolio_repository}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
