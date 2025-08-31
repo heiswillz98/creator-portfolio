@@ -21,6 +21,14 @@
   display: flex;
 }
 
+.greeting-text-div {
+  order: 1;
+}
+
+.greeting-image-div {
+  order: 2;
+}
+
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
@@ -37,11 +45,11 @@
   font-family: "Google Sans Bold";
 }
 
-.greeting-nickname {
+/* .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
-}
+} */
 
 .greeting-text-p {
   font-size: 40px;
@@ -52,7 +60,7 @@
 
 .greeting-image-div > * {
   max-width: 100%;
-  height: auto;
+  height: 85%;
 }
 
 /* Media Query */
@@ -85,6 +93,14 @@
   }
   .greeting-main {
     display: block;
+  }
+
+  .greeting-text-div {
+    order: 1;
+  }
+
+  .greeting-image-div {
+    order: 2;
   }
 
   .portfolio-repo-btn-div {

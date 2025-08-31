@@ -1,5 +1,10 @@
 .social-media-div {
   font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
 
 .icon-button i {
@@ -7,6 +12,8 @@
 }
 .icon-button {
   margin-bottom: 10px;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .icon-button i {
@@ -25,6 +32,26 @@
   user-select: none;
   width: 2.6rem;
   margin-bottom: 10px;
+}
+
+.icon-button img {
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.6rem;
+  width: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 10px;
+  object-fit: cover;
+  background-color: #000000;
+  padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 /* .facebook i {
@@ -56,15 +83,16 @@
 } */
 
 /*Hover Transition*/
-/* .twitter i:hover, .google i:hover, .gitlab i:hover,
-.github i:hover ,.linkedin i:hover ,.facebook i:hover, .instagram i:hover{
+.icon-button i:hover,
+.icon-button img:hover {
   background-color: black;
   transition: 0.3s ease-in;
-} */
+}
 
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;
+    justify-content: center;
   }
 }
